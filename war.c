@@ -155,7 +155,7 @@ void atacar(Territorio* atacante, Territorio* defensor) {
 
     // Avaliação de vitória (atacante vence se tirar número maior no dado)
     if (dadoAtk > dadoDef) {
-        printf("💥 Vitoria do Atacante!\n");
+        printf("Vitoria do Atacante!\n");
         
         // Atualização de campos: Muda a cor do defensor para a cor do atacante
         strcpy(defensor->cor, atacante->cor);
